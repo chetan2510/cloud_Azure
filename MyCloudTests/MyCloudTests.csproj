@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="nunit" Version="3.12.0" />
+        <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+        <PackageReference Include="FakeItEasy" Version="6.2.0" />
+        <PackageReference Include="Typemock.Isolator" Version="8.9.2" />
+        <PackageReference Include="typemoq" Version="2.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MyCloudProject.Common\MyCloudProject.Common.csproj" />
+      <ProjectReference Include="..\MyCloudProject\MyCloudProject.csproj" />
+      <ProjectReference Include="..\MyExperiment\MyExperiment.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Utilities\TestFile.json" />
+      <EmbeddedResource Include="Utilities\TestFile.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Update="CloudStorageTests\DataForTesting\InputData.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Experiment\DataForTesting\InputData.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>

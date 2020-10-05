@@ -1,0 +1,22 @@
+[
+  {
+ "alpha":"1.0",
+ "bucketIndex":"4",
+ "actualValueInBucket" : "34.7",
+ "inputFromTemporalMemory":[ 1, 5]
+},
+{
+ "alpha":"1.0",
+ "bucketIndex":"4",
+ "actualValueInBucket" : "34.7",
+ "inputFromTemporalMemory":[ 1, 5]
+},
+{
+ "alpha":"1.0",
+ "bucketIndex":"4",
+ "actualValueInBucket" : "34.7",
+ "inputFromTemporalMemory":[ 1, 5]
+}
+]
+
+

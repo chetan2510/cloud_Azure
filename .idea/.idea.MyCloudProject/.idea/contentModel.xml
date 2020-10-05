@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Documentation" t="Include">
+        <e p="Experiment Specification - Fiestname Lastname.md" t="Include" />
+      </e>
+      <e p="Exercises - Firstname Lastname.md" t="Include" />
+      <e p="MyCloudProject" t="IncludeRecursive">
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Dockerfile" t="Include" />
+        <e p="MyCloudProject.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="MyCloudProject.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+      </e>
+      <e p="MyCloudProject.Common" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ExerimentRequestMessage.cs" t="Include" />
+        <e p="ExperimentResult.cs" t="Include" />
+        <e p="IExperiment.cs" t="Include" />
+        <e p="InitHelpers.cs" t="Include" />
+        <e p="IStorageProvider.cs" t="Include" />
+        <e p="MyCloudProject.Common.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="MyCloudProject.Common.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="MyCloudProject.sln" t="IncludeFlat" />
+      <e p="MyExperiment" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Experiment.cs" t="Include" />
+        <e p="HelperClass" t="Include">
+          <e p="ArrayUtils.cs" t="Include" />
+          <e p="FileUtilities.cs" t="Include" />
+          <e p="FlexComRowMatrixUtility.cs" t="Include" />
+          <e p="StringUtilities.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="SeProjectInputDataModel.cs" t="Include" />
+          <e p="SeProjectOutputModel.cs" t="Include" />
+        </e>
+        <e p="MyConfig.cs" t="Include" />
+        <e p="MyExperiment.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="MyExperiment.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SoftwareProject" t="Include">
+          <e p="SDRClassifier.cs" t="Include" />
+        </e>
+        <e p="UsedInAzure" t="Include">
+          <e p="InputData.json" t="Include" />
+          <e p="QueueMessage.txt" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_MyCloudProject.-1141400032.00" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -1,0 +1,6 @@
+ {
+     "ExperimentId" : "123",
+     "InputFile" : "https://maazstorage.blob.core.windows.net/inputfiles/InputData.json", 
+     "Name" : "Testing input1.json",
+     "Description" : "project review"
+ }

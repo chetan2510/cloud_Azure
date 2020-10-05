@@ -1,0 +1,86 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/brian/Desktop/cloud_Azure/MyCloudProject.Common/MyCloudProject.Common.csproj",
+    "projectName": "MyCloudProject.Common",
+    "projectPath": "/Users/brian/Desktop/cloud_Azure/MyCloudProject.Common/MyCloudProject.Common.csproj",
+    "outputPath": "/Users/brian/Desktop/cloud_Azure/MyCloudProject.Common/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "sources": {
+      "/Users/brian/Desktop/softwareEngineeringTask/se-cloud-2019-2020/Source/MyCloudProjectSample/packages": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "Microsoft.Azure.Cosmos.Table": {
+          "target": "Package",
+          "version": "[1.0.7, )"
+        },
+        "Microsoft.Azure.Storage.Queue": {
+          "target": "Package",
+          "version": "[11.1.7, )"
+        },
+        "Microsoft.Extensions.Configuration.Abstractions": {
+          "target": "Package",
+          "version": "[3.1.5, )"
+        },
+        "Microsoft.Extensions.Configuration.CommandLine": {
+          "target": "Package",
+          "version": "[3.1.5, )"
+        },
+        "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+          "target": "Package",
+          "version": "[3.1.5, )"
+        },
+        "Microsoft.Extensions.Configuration.Json": {
+          "target": "Package",
+          "version": "[3.1.5, )"
+        },
+        "Microsoft.Extensions.Logging.Abstractions": {
+          "target": "Package",
+          "version": "[3.1.5, )"
+        },
+        "Microsoft.Extensions.Logging.Console": {
+          "target": "Package",
+          "version": "[3.1.5, )"
+        },
+        "Microsoft.Extensions.Logging.Debug": {
+          "target": "Package",
+          "version": "[3.1.5, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+    }
+  }
+}

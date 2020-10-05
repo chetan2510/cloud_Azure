@@ -1,0 +1,62 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/brian/Desktop/cloud_Azure/MyExperiment/MyExperiment.csproj",
+    "projectName": "MyExperiment",
+    "projectPath": "/Users/brian/Desktop/cloud_Azure/MyExperiment/MyExperiment.csproj",
+    "outputPath": "/Users/brian/Desktop/cloud_Azure/MyExperiment/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "sources": {
+      "/Users/brian/Desktop/softwareEngineeringTask/se-cloud-2019-2020/Source/MyCloudProjectSample/packages": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {
+          "/Users/brian/Desktop/cloud_Azure/MyCloudProject.Common/MyCloudProject.Common.csproj": {
+            "projectPath": "/Users/brian/Desktop/cloud_Azure/MyCloudProject.Common/MyCloudProject.Common.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "Azure.Storage.Blobs": {
+          "target": "Package",
+          "version": "[12.5.0-preview.4, )"
+        },
+        "Microsoft.Azure.Storage.Blob": {
+          "target": "Package",
+          "version": "[11.1.7, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+    }
+  }
+}
